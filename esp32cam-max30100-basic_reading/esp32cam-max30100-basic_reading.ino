@@ -1,4 +1,4 @@
-/*
+ /*
   MAX30105 Breakout: Output all the raw Red/IR/Green readings
   By: Nathan Seidle @ SparkFun Electronics
   Date: October 2nd, 2016
@@ -9,8 +9,8 @@
   Hardware Connections (Breakoutboard to Arduino):
   -5V = 5V (3.3V is allowed)
   -GND = GND
-  -SDA = A4 (or SDA)
-  -SCL = A5 (or SCL)
+  -SDA = 15 (or SDA)
+  -SCL = 14 (or SCL)
   -INT = Not connected
 
   The MAX30105 Breakout can handle 5V or 3.3V I2C logic. We recommend powering the board with 5V
